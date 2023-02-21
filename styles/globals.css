@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* Global CSS */ 
 
 img {
@@ -33,6 +34,8 @@ body {
 
 
 /* Global CSS */ 
+
+
 
 /* Horizontal Scroll CSS */ 
 
@@ -81,6 +84,8 @@ body {
 
 /* Horizontal Scroll CSS */ 
 
+
+
 /* Top Images CSS */ 
 
 .outer-wrapperimg {
@@ -89,8 +94,8 @@ body {
 }
 
 .wrapperimg {
-  width: 220vw;
-  height: 100%;
+  width: 240vw;
+  height: 25vh;
   display: flex;
   flex-wrap: nowrap;
   gap: 0.1%;
@@ -107,6 +112,7 @@ body {
 }
 
 /* Top Images CSS */ 
+
 
 
 /* Scrollbar */ 
@@ -140,6 +146,7 @@ body {
 }
 
 /* Scrollbar */ 
+
 
 
 /* Parallax Text */ 
@@ -197,7 +204,7 @@ section {
   left: 0;
   padding: 0.3rem;
   background-color: #4eafff;
-  text-align: right;
+  text-align: center;
 }
 
 /* Footer */ 

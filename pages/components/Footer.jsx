@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <footer class="footer">
-      <p>Created with love by Nader Helal</p>
+      <p>❤️ Created with all the love in the world by Nader Helal ❤️</p>
     </footer>
   );
 }
