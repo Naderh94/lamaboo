@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global CSS */ 
+
+img {
+  border-radius: 4px;
+}
+
+
+
+
+/* Global CSS */ 
+
+/* Horizontal Scroll CSS */ 
+
 .slide {
   width: 55vw;
   height: 70vh;
@@ -29,3 +42,79 @@
   background: #00dfdf;
   font-size: 4vh;
 }
+.custom-reasons {
+  color: black;
+}
+
+.custom-i {
+  color: black;
+}
+
+.custom-love {
+  color: black;
+}
+
+.custom-you {
+  color: black;
+}
+
+/* Horizontal Scroll CSS */ 
+
+/* Top Images CSS */ 
+
+.outer-wrapperimg {
+  position: relative;
+  
+}
+
+.wrapperimg {
+  width: 220vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.1%;
+}
+
+.topimg {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+.topimg:hover {
+    transform: scale(1.10);
+    border-radius: 4px;
+}
+
+/* Top Images CSS */ 
+
+/* Scrollbar */ 
+
+::-webkit-scrollbar {
+  height: 2px;
+  width: 1px;
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    rgb(77, 43, 97) 0%,
+    rgb(121, 60, 136) 10%,
+    rgb(96, 168, 165) 20%,
+    rgb(108, 165, 106) 30%,
+    rgb(90, 187, 185) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgb(99, 39, 219) 70%,
+    rgb(161, 79, 190) 80%,
+    rgb(199, 80, 183) 90%,
+    rgb(209, 113, 238) 100%
+);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--background);
+}
+
+/* Scrollbar */ 
