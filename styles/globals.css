@@ -37,13 +37,13 @@ body {
 /* Horizontal Scroll CSS */ 
 
 .slide {
-  width: 55vw;
-  height: 70vh;
+  width: 85vw;
+  height: 85vh;
 }
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 220vw;
+  width: 340vw;
   scroll-snap-type: inline mandatory;
   scroll-snap-align: start;
 }
@@ -185,3 +185,19 @@ section {
 }
 
 /* Parallax Text */ 
+
+
+
+/* Footer */ 
+
+.footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0.3rem;
+  background-color: #4eafff;
+  text-align: right;
+}
+
+/* Footer */ 

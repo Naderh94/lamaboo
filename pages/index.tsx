@@ -6,6 +6,7 @@ import HorizontalScroll from "./components/HorizontalScroll";
 import TopImages from "./components/TopImages";
 import ParallaxText from "./components/ParallaxText"
 import ImageDisappear from "./components/ImageDisappear";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
       </section>
 
       <HorizontalScroll />
+
+      <Footer />
       
     </>
   )
