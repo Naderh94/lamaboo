@@ -49,7 +49,7 @@ const TopImages = () => {
         >
           <div className="topimg">
           <picture>
-              <img alt="..." loading="lazy" src="https://via.placeholder.com/400x400" />
+              <img alt="..." loading="lazy" src="https://via.placeholder.com/200x200" />
             </picture>
           </div>
           <div className="topimg">

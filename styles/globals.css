@@ -5,6 +5,11 @@
 
 /* Global CSS */ 
 
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
 img {
   border-radius: 4px;
 }
@@ -68,18 +73,22 @@ body {
 }
 .custom-reasons {
   color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 .custom-i {
   color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 .custom-love {
   color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 .custom-you {
   color: black;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Horizontal Scroll CSS */ 
@@ -95,7 +104,7 @@ body {
 
 .wrapperimg {
   width: 240vw;
-  height: 25vh;
+  height: 100%;
   display: flex;
   flex-wrap: nowrap;
   gap: 0.1%;
@@ -205,6 +214,7 @@ section {
   padding: 0.3rem;
   background-color: #4eafff;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Footer */ 
