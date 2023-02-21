@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import HorizontalScroll from "./components/HorizontalScroll";
 import TopImages from "./components/TopImages";
+import ParallaxText from "./components/ParallaxText"
 
 export default function Home() {
   return (
@@ -16,6 +17,11 @@ export default function Home() {
       </Head>
 
       <TopImages />
+
+      <section>
+        <ParallaxText baseVelocity={-1} color="red">Lamoseshka Farfosheka is the Cutest Patotes to ever exist</ParallaxText>
+        <ParallaxText baseVelocity={1} color="red">You are my favorite thing in life - Loving You Forever & Always</ParallaxText>
+      </section>
 
       <HorizontalScroll />
       

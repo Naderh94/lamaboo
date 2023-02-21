@@ -8,7 +8,28 @@ img {
   border-radius: 4px;
 }
 
+body {
+  --black: #000000;
+  --ash-black: #222;
+  --white: #f8f0e5;
+  --sky: #00ccff;
+  --green: #22dddd;
+  --blue: #1300ff;
+  --dusk: #6600ff;
+  --purple: #ddb7f7;
+  --pink: #ff0066;
+  --red: #fe0222;
+  --orange: #fd7702;
+  --yellow: #ffbb00;
 
+  --background: var(--purple);
+  --accent: var(--white);
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--accent);
+}
 
 
 /* Global CSS */ 
@@ -87,6 +108,7 @@ img {
 
 /* Top Images CSS */ 
 
+
 /* Scrollbar */ 
 
 ::-webkit-scrollbar {
@@ -118,3 +140,48 @@ img {
 }
 
 /* Scrollbar */ 
+
+
+/* Parallax Text */ 
+
+section {
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  position: relative;
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--accent);
+  bottom: 100px;
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -0px;
+  line-height: 1.2;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: none;
+  font-size: 5vh;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 100px;
+}
+
+/* Parallax Text */ 
