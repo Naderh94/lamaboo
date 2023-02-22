@@ -3,11 +3,28 @@ import React, { useState, useEffect } from 'react';
 const ImageDisappear = () => {
   const [showImage, setShowImage] = useState(true);
   const [showReplacement, setShowReplacement] = useState(false);
+  const [imagesShown, setImagesShown] = useState(false);
 
   const handleMouseMove = event => {
-    if (event.clientX >= window.innerWidth - 750 && event.clientY <= 300) {
+    const imageElement = document.querySelector('img');
+    const imageRect = imageElement.getBoundingClientRect();
+    const imageWidth = imageRect.width;
+    const imageHeight = imageRect.height;
+    const imageTop = imageRect.top;
+    const imageLeft = imageRect.left;
+    const imageRight = imageRect.right;
+    const imageBottom = imageRect.bottom;
+
+    if (
+      event.clientX >= imageLeft + imageWidth * 0.5 - 50 &&
+      event.clientX <= imageRight - imageWidth * 0.5 + 50 &&
+      event.clientY >= imageTop + imageHeight * 0.5 - 120 &&
+      event.clientY <= imageBottom - imageHeight * 0.5 + 120
+    ) {
       setShowImage(false);
-      setShowReplacement(true);
+      setTimeout(() => {
+        setShowReplacement(true);
+      }, 700);
     }
   };
 
@@ -15,40 +32,58 @@ const ImageDisappear = () => {
     if (showReplacement) {
       setTimeout(() => {
         setShowReplacement(false);
-      }, 3000);
+        setImagesShown(true);
+      }, 4300);
     }
   }, [showReplacement]);
 
+  const styles = {
+    container: {
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      width: '100vw',
+      height: '100vh',
+      margin: '0',
+      opacity: imagesShown ? '0' : '1',
+      transition: 'opacity 1s ease-in-out',
+      zIndex: '1',
+    },
+    image: {
+      position: 'absolute',
+      width: '100%',
+      height: '100%',
+      opacity: showImage ? '1' : '0',
+      transition: 'opacity 1s ease-in-out',
+      zIndex: '1',
+    },
+    replacementImage: {
+      position: 'absolute',
+      width: '100%',
+      height: '100%',
+      opacity: showReplacement ? '1' : '0',
+      transition: 'opacity 1s ease-in-out',
+      zIndex: '1',
+    },
+  };
+
   return (
-    <div onMouseMove={handleMouseMove}>
-      {showImage && (
-        <img
-          src="https://images.unsplash.com/photo-1641826091173-d157dc9ac30c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="Your image"
-          style={{ 
-            position: 'absolute',
-            width: '100vw',
-            height: '100vh',
-            margin: '0',
-            zIndex: '1',
-          }}
-        />
-        
+    <>
+      {imagesShown ? null : (
+        <div style={styles.container} onMouseMove={handleMouseMove}>
+          <img
+            src="https://i.imgur.com/1u6fSzJ.jpg"
+            alt="Your image"
+            style={styles.image}
+          />
+          <img
+            src="https://i.imgur.com/wtzSnUt.png"
+            alt="Your replacement image"
+            style={styles.replacementImage}
+          />
+        </div>
       )}
-      {showReplacement && (
-        <img
-          src="https://i.imgur.com/wtzSnUt.png"
-          alt="Your replacement image"
-          style={{ 
-            position: 'absolute',
-            width: '100vw',
-            height: '100vh',
-            margin: '0',
-            zIndex: '1',
-        }}
-        />
-      )}
-    </div>
+    </>
   );
 };
 
