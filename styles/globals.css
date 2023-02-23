@@ -127,6 +127,7 @@ body {
 /* Scrollbar */ 
 
 ::-webkit-scrollbar {
+  display: none;
   height: 2px;
   width: 1px;
   background: var(--background);
@@ -188,7 +189,7 @@ section {
 .parallax .scroller {
   font-weight: 600;
   text-transform: none;
-  font-size: 5vh;
+  font-size: 4.2vh;
   display: flex;
   white-space: nowrap;
   display: flex;

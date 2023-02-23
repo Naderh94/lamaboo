@@ -18,8 +18,8 @@ const ImageDisappear = () => {
     if (
       event.clientX >= imageLeft + imageWidth * 0.5 - 50 &&
       event.clientX <= imageRight - imageWidth * 0.5 + 50 &&
-      event.clientY >= imageTop + imageHeight * 0.5 - 120 &&
-      event.clientY <= imageBottom - imageHeight * 0.5 + 120
+      event.clientY >= imageTop + imageHeight * 0.5 - 240 &&
+      event.clientY <= imageBottom - imageHeight * 0.5 + 0
     ) {
       setShowImage(false);
       setTimeout(() => {
@@ -48,11 +48,16 @@ const ImageDisappear = () => {
       opacity: imagesShown ? '0' : '1',
       transition: 'opacity 1s ease-in-out',
       zIndex: '1',
+      backdropFilter: imagesShown ? 'none' : 'blur(10px)',
+      pointerEvents: imagesShown ? 'none' : 'all',
     },
     image: {
       position: 'absolute',
       width: '100%',
       height: '100%',
+      objectFit: 'contain',
+      maxWidth: '100%', // set the max-width of the image to 100%
+      maxHeight: '100%',
       opacity: showImage ? '1' : '0',
       transition: 'opacity 1s ease-in-out',
       zIndex: '1',
@@ -61,6 +66,9 @@ const ImageDisappear = () => {
       position: 'absolute',
       width: '100%',
       height: '100%',
+      objectFit: 'contain',
+      maxWidth: '100%', // set the max-width of the image to 100%
+      maxHeight: '100%',
       opacity: showReplacement ? '1' : '0',
       transition: 'opacity 1s ease-in-out',
       zIndex: '1',
