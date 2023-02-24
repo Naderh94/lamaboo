@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Blur } from 'react-blur';
 
 const ImageDisappear = () => {
   const [showImage, setShowImage] = useState(true);
@@ -39,6 +38,12 @@ const ImageDisappear = () => {
   }, [showReplacement]);
 
   const styles = {
+    /* CSS reset */
+  '*': {
+    margin: 0,
+    padding: 0,
+    boxSizing: 'border-box',
+  },
     container: {
       position: 'fixed',
       top: 0,
@@ -84,13 +89,11 @@ const ImageDisappear = () => {
             src="https://i.imgur.com/1u6fSzJ.jpg"
             alt="Your image"
             style={styles.image}
-            blurRadius={showImage ? 0 : 10}
           />
           <img
             src="https://i.imgur.com/wtzSnUt.png"
             alt="Your replacement image"
             style={styles.replacementImage}
-            blurRadius={showReplacement ? 10 : 0}
           />
         </div>
       )}
