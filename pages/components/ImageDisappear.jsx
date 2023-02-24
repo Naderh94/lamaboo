@@ -50,7 +50,7 @@ const ImageDisappear = () => {
       zIndex: '1',
       backdropFilter: imagesShown ? 'none' : 'blur(10px)',
       pointerEvents: imagesShown ? 'none' : 'all',
-      background: imagesShown ? 'transparent' : 'rgba(0, 0, 0, 0.7)',
+      background: imagesShown ? 'transparent' : 'rgba(0, 0, 0, 0.9)',
     },
     image: {
       position: 'absolute',
