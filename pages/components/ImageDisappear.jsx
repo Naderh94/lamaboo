@@ -81,7 +81,7 @@ const ImageDisappear = () => {
       {imagesShown ? null : (
         <div style={styles.container} onMouseMove={handleMouseMove}>
           <img
-            src="https://i.imgur.com/1u6fSzJ.jpg"
+            src="https://i.imgur.com/Ddfelnz.jpg"
             alt="Your image"
             style={styles.image}
           />
