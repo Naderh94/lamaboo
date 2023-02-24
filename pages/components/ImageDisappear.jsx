@@ -40,7 +40,7 @@ const ImageDisappear = () => {
   const styles = {
     container: {
       position: 'fixed',
-      top: '1px',
+      top: 0,
       left: 0,
       width: '100vw',
       height: '100vh',
