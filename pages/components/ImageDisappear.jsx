@@ -40,12 +40,11 @@ const ImageDisappear = () => {
   const styles = {
     container: {
       position: 'fixed',
-      top: '0',
-      left: '0',
+      top: '1px',
+      left: 0,
       width: '100vw',
       height: '100vh',
       margin: '0',
-      padding: '0',
       opacity: imagesShown ? '0' : '1',
       transition: 'opacity 1s ease-in-out',
       zIndex: '1',
