@@ -37,6 +37,7 @@ const TopImages = () => {
         flexDirection: "row",
         whiteSpace: "nowrap",
         width: "100%",
+        height: "100%"
       }}
       onWheel={handleWheel}
       onMouseEnter={handleMouseEnter}
