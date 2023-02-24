@@ -51,6 +51,7 @@ const ImageDisappear = () => {
       width: '100vw',
       height: '100vh',
       margin: '0',
+      padding: 0,
       opacity: imagesShown ? '0' : '1',
       transition: 'opacity 1s ease-in-out',
       zIndex: '1',
