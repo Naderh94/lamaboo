@@ -105,6 +105,7 @@ body {
     position: relative;
     top: -7vh;
     max-width: 25%;
+    margin: 0;
   }
 
 .custom-i {
