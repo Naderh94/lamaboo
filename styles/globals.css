@@ -59,6 +59,8 @@ body {
 .one {
   background: #deeee3;
   font-size: 4vh;
+  overflow: hidden;
+  
 }
 .two {
   background: #badfd6;
@@ -76,7 +78,33 @@ body {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
   font-size: 6vh;
-}
+} .reasons-face {
+  color: #000000;
+} .yourface {
+    display: flex; 
+    flex-wrap: wrap;
+    color:#802bff;
+    position: relative;
+    top: 0;
+    left: 1.7vh;
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    max-width: 100%;
+    gap: 80px;
+    align-items: center;
+  } .yourfaceright {
+    display: flex; 
+    flex-wrap: wrap;
+    position: relative;
+    top: 8vh;
+    right: 2vh;
+    margin: 0;
+    max-width: 100%;
+  } .yourfaceleft {
+    position: relative;
+    top: -7vh;
+  }
 
 .custom-i {
   color: #FFF1DC;

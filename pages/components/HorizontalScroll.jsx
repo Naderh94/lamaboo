@@ -43,14 +43,29 @@ const HorizontalScroll = () => {
             className="slide one"
             style={{ borderRadius: "3px", padding: "10px" }}
           >
-            <div className="first-image">
-              
-
-
-            </div>
+            <div className="first-image"></div>
             <h1 className="flex items-topcenter justify-center mt-2 bg-fixed bg-center bgcover custom-reasons">
               REASONS
             </h1>
+              <div className="reasons-face">
+              <div className="yourface">
+              <picture className="yourfaceleft">
+              <img alt="..." loading="lazy" width={200} src="https://i.imgur.com/6acMnkD.jpg" />
+              </picture>
+              <p>Your face.</p>
+              <picture className="yourfaceright">
+              <img alt="..." loading="lazy" width={270} src="https://i.imgur.com/6acMnkD.jpg" />
+              </picture>
+              </div>
+              <p>It is literally my favorite thing Ive ever seen in my life.</p> 
+              <picture>
+              <img alt="..." loading="lazy" width={200} src="https://i.imgur.com/6acMnkD.jpg" />
+              </picture>
+              <p>I could stare at it for years.</p>
+              <picture>
+              <img alt="..." loading="lazy" width={200} src="https://i.imgur.com/6acMnkD.jpg" />
+              </picture>
+              </div>
           </div>
           <div
             className="slide two"
