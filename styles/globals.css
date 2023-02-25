@@ -8,7 +8,6 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Raleway', Menlo;
-  font-style: italic;
 }
 
 img {
@@ -17,15 +16,15 @@ img {
 
 body {
   --black: #000000;
-  --ash-black: #222;
+  --ash-black: #444343;
   --white: #f8f0e5;
   --sky: #00ccff;
   --green: #22dddd;
   --blue: #1300ff;
-  --dusk: #6600ff;
-  --purple: #e9d0fa;
+  --dusk: #802bff;
+  --purple: #f6eefc;
   --pink: #ff0066;
-  --red: #fe0222;
+  --red: #ff0000;
   --orange: #fd7702;
   --yellow: #ffbb00;
 
@@ -48,6 +47,7 @@ body {
 .slide {
   width: 85vw;
   height: 85vh;
+  margin-top: 3px;
 }
 .wrapper {
   display: flex;
@@ -57,19 +57,19 @@ body {
   scroll-snap-align: start;
 }
 .one {
-  background: hsl(17, 66%, 84%);
+  background: #deeee3;
   font-size: 4vh;
 }
 .two {
-  background: #a3f3d3;
+  background: #badfd6;
   font-size: 4vh;
 }
 .three {
-  background: #0bbaa0;
+  background: #b5d1d1;
   font-size: 4vh;
 }
 .four {
-  background: #00dfdf;
+  background: #afd6d5;
   font-size: 4vh;
 }
 .custom-reasons {
@@ -136,16 +136,16 @@ body {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(
     90deg,
-    rgb(77, 43, 97) 0%,
-    rgb(121, 60, 136) 10%,
-    rgb(161, 79, 190)  20%,
-    rgb(161, 79, 190)  30%,
+    rgb(209, 113, 238) 0%,
+    rgb(209, 113, 238) 10%,
+    rgb(199, 80, 183)  20%,
+    rgb(199, 80, 183) 30%,
     rgb(161, 79, 190)  40%,
     rgb(161, 79, 190)  50%,
     rgb(161, 79, 190)  60%,
-    rgb(161, 79, 190)  70%,
-    rgb(161, 79, 190) 80%,
-    rgb(199, 80, 183) 90%,
+    rgb(199, 80, 183)  70%,
+    rgb(199, 80, 183) 80%,
+    rgb(209, 113, 238) 90%,
     rgb(209, 113, 238) 100%
 );
   -webkit-border-radius: 1ex;
@@ -165,6 +165,7 @@ section {
   padding-top: 0vh;
   padding-bottom: 0vh;
   position: relative;
+  font-style: italic;
 }
 
 .progress {
@@ -194,6 +195,8 @@ section {
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
+  margin-bottom: 1px;
+  text-shadow: -0.5px -0.5px 0 rgb(31, 29, 29), 0.5px -0.5px 0 rgb(31, 29, 29), -0.5px 0.5px 0 rgb(31, 29, 29), 0.5px 0.5px 0 rgb(31, 29, 29);
 }
 
 .parallax span {
@@ -213,7 +216,7 @@ section {
   right: 0;
   left: 0;
   padding: 0.3rem;
-  background-color: #4eafff;
+  background-color: #eadcf5;
   text-align: center;
   font-family: 'Lato', Menlo;
 }

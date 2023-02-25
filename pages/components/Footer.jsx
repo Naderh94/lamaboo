@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <footer class="footer">
-      <p>❤️ Created with all the <span style={{ color: 'red' }}>LOVE</span> in the 🌎 by <span style={{ color: 'purple' }}>Nadoura el Amoura</span> ❤️</p>
+      <p>❤️ <span style={{ color: '#444343' }}> Created with all the </span> <span style={{ color: '#ff0000' }}>LOVE</span> <span style={{ color: '#444343' }}> in the </span> 🌎  <span style={{ color: '#444343' }}> by </span> <span style={{ color: '#802bff' }}>Nadoura el Amoura</span> ❤️</p>
     </footer>
   );
 }
