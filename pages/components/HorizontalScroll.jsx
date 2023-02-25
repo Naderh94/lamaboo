@@ -50,11 +50,11 @@ const HorizontalScroll = () => {
               <div className="reasons-face">
               <div className="yourface">
               <picture className="yourfaceleft">
-              <img alt="..." loading="lazy" width={200} src="https://i.imgur.com/6acMnkD.jpg" />
+              <img alt="..." loading="lazy" src="https://i.imgur.com/6acMnkD.jpg" />
               </picture>
               <p>Your face.</p>
               <picture className="yourfaceright">
-              <img alt="..." loading="lazy" width={270} src="https://i.imgur.com/6acMnkD.jpg" />
+              <img alt="..." loading="lazy" src="https://i.imgur.com/6acMnkD.jpg" />
               </picture>
               </div>
               <p>It is literally my favorite thing Ive ever seen in my life.</p> 

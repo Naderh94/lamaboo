@@ -45,14 +45,14 @@ body {
 /* Horizontal Scroll CSS */ 
 
 .slide {
-  width: 85vw;
+  width: 85vh;
   height: 85vh;
   margin-top: 3px;
 }
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 340vw;
+  width: 100%;
   scroll-snap-type: inline mandatory;
   scroll-snap-align: start;
 }
@@ -85,25 +85,26 @@ body {
     flex-wrap: wrap;
     color:#802bff;
     position: relative;
-    top: 0;
-    left: 1.7vh;
+    top: 0vh;
+    left: 0;
     text-align: center;
     margin: 0;
     padding: 2px;
     max-width: 100%;
-    gap: 80px;
+    gap: 70px;
     align-items: center;
   } .yourfaceright {
     display: flex; 
     flex-wrap: wrap;
     position: relative;
     top: 8vh;
-    right: 2vh;
+    right: 0vh;
     margin: 0;
-    max-width: 100%;
+    max-width: 35%;
   } .yourfaceleft {
     position: relative;
     top: -7vh;
+    max-width: 25%;
   }
 
 .custom-i {
