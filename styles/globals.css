@@ -101,13 +101,13 @@ body {
     width: 28%;
    } .yourfaceleft img {
     float: left; 
-    margin-right: 32%;
+    margin-right: 6vw;
   } .yourfaceleft p {
     height: 100px;
   line-height: 900%;
   }
+
   .yourfaceright {
-    
     position: relative;
     top: -18vh;
     left: 54vh;
