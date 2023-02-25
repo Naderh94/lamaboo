@@ -19,7 +19,7 @@ body {
   --ash-black: #444343;
   --white: #f8f0e5;
   --sky: #00ccff;
-  --green: #22dddd;
+  --green: #57d6b6;
   --blue: #1300ff;
   --dusk: #802bff;
   --purple: #f6eefc;
@@ -73,23 +73,24 @@ body {
   font-size: 4vh;
 }
 .custom-reasons {
-  color: black;
+  color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
 }
 
 .custom-i {
-  color: black;
+  color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
 }
 
 .custom-love {
-  color: black;
+  color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
 }
 
 .custom-you {
-  color: black;
+  color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
+  
 }
 
 /* Horizontal Scroll CSS */ 
@@ -136,17 +137,17 @@ body {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(
     90deg,
-    rgb(209, 113, 238) 0%,
-    rgb(209, 113, 238) 10%,
-    rgb(199, 80, 183)  20%,
-    rgb(199, 80, 183) 30%,
-    rgb(161, 79, 190)  40%,
-    rgb(161, 79, 190)  50%,
-    rgb(161, 79, 190)  60%,
-    rgb(199, 80, 183)  70%,
-    rgb(199, 80, 183) 80%,
-    rgb(209, 113, 238) 90%,
-    rgb(209, 113, 238) 100%
+    rgb(224, 162, 243) 0%,
+    rgb(224, 162, 243) 10%,
+    rgb(228, 144, 217)  20%,
+    rgb(228, 144, 217) 30%,
+    rgb(215, 151, 238)  40%,
+    rgb(215, 151, 238) 50%,
+    rgb(215, 151, 238)  60%,
+    rgb(228, 144, 217)  70%,
+    rgb(228, 144, 217) 80%,
+    rgb(224, 162, 243) 90%,
+    rgb(224, 162, 243) 100%
 );
   -webkit-border-radius: 1ex;
 }
