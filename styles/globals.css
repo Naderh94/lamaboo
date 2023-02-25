@@ -196,7 +196,7 @@ section {
   display: flex;
   flex-wrap: nowrap;
   margin-bottom: 1px;
-  text-shadow: -0.5px -0.5px 0 rgb(31, 29, 29), 0.5px -0.5px 0 rgb(31, 29, 29), -0.5px 0.5px 0 rgb(31, 29, 29), 0.5px 0.5px 0 rgb(31, 29, 29);
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 .parallax span {
