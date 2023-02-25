@@ -75,22 +75,25 @@ body {
 .custom-reasons {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
+  font-size: 8vh;
 }
 
 .custom-i {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
+  font-size: 8vh;
 }
 
 .custom-love {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
+  font-size: 8vh;
 }
 
 .custom-you {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
-  
+  font-size: 8vh;
 }
 
 /* Horizontal Scroll CSS */ 
@@ -221,11 +224,12 @@ section {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 0.3rem;
+  padding: 0.2rem;
   background-color: #eadcf5;
   text-align: center;
   font-family: 'Lato', Menlo;
   font-weight: bold;
+  font-size: small;
 }
 
 /* Footer */ 
