@@ -27,13 +27,14 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#eedac9',
-        padding: '2rem'
+        backgroundColor: '#F1D1D1',
+        padding: '2rem',
+        letterSpacing: '0.04rem'
       }}
     >
       <div
         style={{
-          backgroundColor: '#fc3a4dcc',
+          backgroundColor: 'black',
           borderRadius: '0.5rem',
           boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
           display: 'flex',
@@ -46,12 +47,12 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
         <form onSubmit={handleFormSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <label
             style={{
-              color: 'black',
-              fontSize: '1.3rem',
+              color: 'purple',
+              fontSize: '1.4rem',
               fontWeight: 'bold',
               fontFamily: 'Roboto Slab',
               marginBottom: '1.5rem',
-              textAlign: 'center'
+              textAlign: 'center',
             }}
           >
             Please enter the password to view my favorite thing in life:
@@ -66,12 +67,13 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
                 textAlign: 'center',
                 fontWeight: 'lighter',
                 border: 'none',
-                borderBottom: '0.15rem solid #000000',
+                borderBottom: '0.19rem solid dusk',
                 outline: 'none',
                 backgroundColor: 'transparent',
-                color: '#000000',
+                color: 'white',
                 width: '100%',
-                marginTop: '0.5rem'
+                marginTop: '0.5rem',
+                letterSpacing: '0.08rem'
               }}
             />
           </label>
@@ -79,17 +81,16 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
             type="submit"
             className="submitbutton"
             style={{
-              backgroundColor: '#000000',
-              color: '#ff1919',
               borderRadius: '0.5rem',
               padding: '0.5rem 1rem',
               fontFamily: 'Roboto Slab',
               fontWeight: 'bold',
-              fontSize: '1.2rem',
+              fontSize: '1.7rem',
               outline: 'none',
               border: 'none',
               cursor: 'pointer',
-              marginTop: '1rem'
+              marginTop: '0.3rem',
+              letterSpacing: '0.08rem'
             }}
           >
             Yes Daddy

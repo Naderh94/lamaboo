@@ -5,6 +5,7 @@
 
 /* Global CSS */ 
 
+
 html {
   scroll-behavior: smooth;
   font-family: 'Raleway', Menlo;
@@ -23,9 +24,9 @@ body {
   --blue: #1300ff;
   --dusk: #802bff;
   --purple: #f6eefc;
-  --pink: #db5353;
-  --red: #ff0000;
-  --orange: #f1d3b8;
+  --pink: #f87481cc;
+  --red: #ff1919;
+  --orange: #f8ceaee0;
   --yellow: #ffbb00;
 
   --background: var(--purple);
@@ -43,6 +44,7 @@ body {
 
 
 /* Horizontal Scroll CSS */ 
+
 
 .slide {
   width: 85vh;
@@ -133,11 +135,13 @@ body {
   font-size: 6vh;
 }
 
+
 /* Horizontal Scroll CSS */ 
 
 
 
 /* Top Images CSS */ 
+
 
 .outer-wrapperimg {
   position: relative;
@@ -163,11 +167,13 @@ body {
     border-radius: 4px;
 }
 
+
 /* Top Images CSS */ 
 
 
 
 /* Scrollbar */ 
+
 
 ::-webkit-scrollbar {
   height: 2px;
@@ -197,11 +203,13 @@ body {
   background: var(--background);
 }
 
+
 /* Scrollbar */ 
 
 
 
 /* Parallax Text */ 
+
 
 section {
   padding-top: 0vh;
@@ -274,12 +282,68 @@ section {
 
 
 
+/* Password Page */ 
+
+
 .submitbutton {
-  color: #eb7575;
-background-color: #000000;
-border-radius: 0.5rem;
-padding: 0.5rem 1rem;
-font-family: 'Roboto Slab', sans-serif;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: 'Roboto Slab', monospace;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  z-index: 1;
+  animation: glow 7s linear infinite;
+}
+
+.submitbutton:before {
+  content: '';
+  position: absolute;
+  background: inherit;
+  top: -1rem;
+  right: -1rem;
+  bottom: -1rem;
+  left: -1rem;
+  border-radius: 1rem;
+  filter: blur(1rem);
+  opacity: 0;
+  z-index: -1;
+}
+
+.submitbutton:hover:before {
+  opacity: 1;
+  animation: glow-hover 2s linear infinite;
+}
+
+@keyframes glow {
+  0% {
+    background-position: 0%;
+    opacity: 1;
+  }
+  50% {
+    background-position: 400%;
+  }
+  100% {
+    background-position: 800%;
+    opacity: 1;
+  }
+}
+
+@keyframes glow-hover {
+  0% {
+    background-position: 800%;
+    opacity: 0.5;
+  }
+  50% {
+    background-position: 400%;
+    opacity: 1;
+  }
+  100% {
+    background-position: 0%;
+    opacity: 0.5;
+  }
 }
 
 
@@ -291,3 +355,6 @@ input[type="text"] {
 input[type="text"]:focus {
   border-color: #db5353; /* change the border color when the field is focused */
 }
+
+
+/* Password Page */ 
