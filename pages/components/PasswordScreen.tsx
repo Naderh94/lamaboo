@@ -33,7 +33,7 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
     >
       <div
         style={{
-          backgroundColor: '#db5353',
+          backgroundColor: '#FFBABA',
           borderRadius: '0.5rem',
           boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
           display: 'flex',
@@ -62,7 +62,6 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
               style={{
                 padding: '0.5rem',
                 borderRadius: '0.5rem',
-                marginLeft: '1.3rem',
                 fontFamily: 'Roboto Slab',
                 textAlign: 'center',
                 fontWeight: 'lighter',
@@ -81,7 +80,7 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
             className="submitbutton"
             style={{
               backgroundColor: '#000000',
-              color: '#db5353',
+              color: '#ff1919',
               borderRadius: '0.5rem',
               padding: '0.5rem 1rem',
               fontFamily: 'Roboto Slab',
