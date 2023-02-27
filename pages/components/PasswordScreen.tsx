@@ -47,7 +47,7 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
         <form onSubmit={handleFormSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <label
             style={{
-              color: '#967BB6',
+              color: '#FFF8E1',
               fontSize: '1.4rem',
               fontWeight: 'bold',
               fontFamily: 'Roboto Slab',
@@ -67,10 +67,10 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
                 textAlign: 'center',
                 fontWeight: 'lighter',
                 border: 'none',
-                borderBottom: '0.19rem solid #967BB6',
+                borderBottom: '0.19rem solid #FFF8E1',
                 outline: 'none',
                 backgroundColor: 'transparent',
-                color: '#FFF8E1',
+                color: '#967BB6',
                 width: '100%',
                 marginTop: '0.5rem',
                 letterSpacing: '0.08rem'
