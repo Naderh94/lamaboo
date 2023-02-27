@@ -289,7 +289,7 @@ section {
   color: black;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
-  font-family: 'Roboto Slab', monospace;
+  font-family: 'Roboto Slab', Helvetica;
   position: relative;
   overflow: hidden;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
