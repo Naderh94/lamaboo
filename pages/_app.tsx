@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [authenticated, setAuthenticated] = useState(false)
 
   const handlePasswordEntered = (password: string) => {
-    if (password === 'lamaishot') {
+    if (password === 'Chestnuts') {
       setAuthenticated(true)
     }
   }

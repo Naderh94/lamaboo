@@ -272,6 +272,23 @@ section {
 /* Footer */ 
 
 
-.Password {
-  color: #000;
+
+
+.submitbutton {
+  color: #F2921D;
+background-color: #323232;
+border-radius: 5px;
+padding: 7px;
+font-family: 'Roboto Slab', sans-serif;
+}
+
+input[type="text"] {
+  border: 2px solid #323232;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none; /* remove the default outline when the field is focused */
+}
+
+input[type="text"]:focus {
+  border-color: #F2921D; /* change the border color when the field is focused */
 }
