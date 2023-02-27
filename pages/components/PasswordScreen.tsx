@@ -33,7 +33,7 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
     >
       <div
         style={{
-          backgroundColor: '#FFBABA',
+          backgroundColor: '#fc3a4e',
           borderRadius: '0.5rem',
           boxShadow: '0 0 10px rgba(0, 0, 0, 0.3)',
           display: 'flex',
