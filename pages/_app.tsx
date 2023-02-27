@@ -6,7 +6,7 @@ import PasswordScreen from './components/PasswordScreen';
 function MyApp({ Component, pageProps }: AppProps) {
   const [authenticated, setAuthenticated] = useState(false)
 
-  const handlePasswordEntered = (password) => {
+  const handlePasswordEntered = (password: string) => {
     if (password === 'lamaishot') {
       setAuthenticated(true)
     }
