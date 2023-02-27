@@ -9,6 +9,7 @@ import ImageDisappear from "./components/ImageDisappear";
 import Footer from "./components/Footer";
 
 
+
 export default function Home() {
   return (
     <>
@@ -31,7 +32,7 @@ export default function Home() {
       <HorizontalScroll />
 
       <Footer />
-      
+
     </>
   )
 }
