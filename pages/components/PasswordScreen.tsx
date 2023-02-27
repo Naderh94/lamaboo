@@ -90,10 +90,10 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
               border: 'none',
               cursor: 'pointer',
               marginTop: '0.3rem',
-              letterSpacing: '0.08rem'
+              letterSpacing: '0.03rem'
             }}
           >
-            Yaass Daddy 🫃
+            YAASS DADDY
           </button>
         </form>
       </div>
