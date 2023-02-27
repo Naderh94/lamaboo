@@ -23,9 +23,9 @@ body {
   --blue: #1300ff;
   --dusk: #802bff;
   --purple: #f6eefc;
-  --pink: #ff0066;
+  --pink: #db5353;
   --red: #ff0000;
-  --orange: #fd7702;
+  --orange: #f1d3b8;
   --yellow: #ffbb00;
 
   --background: var(--purple);
@@ -275,20 +275,19 @@ section {
 
 
 .submitbutton {
-  color: #F2921D;
-background-color: #323232;
-border-radius: 5px;
-padding: 7px;
+  color: #db5353;
+background-color: #000000;
+border-radius: 0.5rem;
+padding: 0.5rem 1rem;
 font-family: 'Roboto Slab', sans-serif;
 }
 
+
 input[type="text"] {
-  border: 2px solid #323232;
-  border-radius: 5px;
-  padding: 10px;
+  border: 0.15rem solid #000000;
   outline: none; /* remove the default outline when the field is focused */
 }
 
 input[type="text"]:focus {
-  border-color: #F2921D; /* change the border color when the field is focused */
+  border-color: #db5353; /* change the border color when the field is focused */
 }
