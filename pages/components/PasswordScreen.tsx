@@ -93,7 +93,7 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
               letterSpacing: '0.08rem'
             }}
           >
-            Yaass Daddy
+            Yaass Daddy 🫃
           </button>
         </form>
       </div>

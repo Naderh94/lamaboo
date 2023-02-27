@@ -295,7 +295,7 @@ section {
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   background-size: 400%;
   z-index: 1;
-  animation: glow 7s linear infinite;
+  animation: glow 15s linear infinite;
 }
 
 .submitbutton:before {
