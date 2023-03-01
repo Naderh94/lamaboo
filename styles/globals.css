@@ -181,8 +181,8 @@ body {
 }
 
 .wrapperimg {
-  width: 700vh;
-  max-width: 700vh;
+  width: 700%;
+  max-width: 700vw;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
