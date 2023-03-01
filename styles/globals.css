@@ -181,8 +181,8 @@ body {
 }
 
 .wrapperimg {
-  width: 800%;
-  max-width: 800vw;
+  width: 600%;
+  max-width: 600vw;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -272,7 +272,7 @@ section {
 .parallax .scroller {
   font-weight: 600;
   text-transform: none;
-  font-size: 6vh;
+  font-size: 3.8vh;
   display: flex;
   white-space: nowrap;
   display: flex;
@@ -287,7 +287,7 @@ section {
 
 .parallax span {
   display: block;
-  margin-right: 100px;
+  margin-right: 70px;
 }
 
 
