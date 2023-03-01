@@ -87,7 +87,7 @@ body {
 
   .yourfaceleft {
     position: relative;
-    top: -1vh;
+    top: -3vh;
     margin-left: 0.4vh;
     width: 30%;
     
@@ -102,8 +102,8 @@ body {
   } 
   .yourfaceleft p {
     position: relative;
-    width: fit-content;
-    left: 24vh;
+    width: 100%;
+    left: 25vh;
     top: -15vh;
     font-size: 5vh;
     font-weight: 600;
@@ -192,7 +192,7 @@ body {
 
 .wrapperimg {
   width: 700%;
-  max-width: 700vh;
+  max-width: 700vh;  
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
