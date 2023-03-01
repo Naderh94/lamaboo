@@ -194,15 +194,11 @@ body {
 .topimg {
     transition: transform 0.5s ease-in-out; /* Animation */
     margin: 0 auto;
-    position: relative; /* Add this line */
-    z-index: 1; 
   }
   
 .topimg:hover {
-  transform: translate(0vh, 1vh) scale(1.1);
+  transform: scale(1.05);
     border-radius: 4px;
-    position: relative;
-    z-index: 9999;
 }
 
 
