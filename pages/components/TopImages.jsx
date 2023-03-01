@@ -135,7 +135,7 @@ const TopImages = () => {
           </div>
           <div className="topimg">
           <picture>
-              <img alt="..." loading="lazy" src="https://i.imgur.com/6acMnkD.jpg" />
+              <img width={1} alt="..." loading="lazy" src="https://i.imgur.com/6acMnkD.jpg" />
             </picture>
           </div>
           <div className="topimg">

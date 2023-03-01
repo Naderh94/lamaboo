@@ -68,29 +68,34 @@ const HorizontalScroll = () => {
                 </picture>
                 <p>I could stare at it for years.</p>
               </div>
-              <p className="favthing">It is literally my favorite thing Ive ever seen in my life.</p>
-              <div className="yourfacebpic">
-              <picture>
-                  <img
-                    alt="..."
-                    loading="lazy"
-                    src="https://i.imgur.com/6acMnkD.jpg"
-                  />
-                </picture>
-                <picture>
-                  <img
-                    alt="..."
-                    loading="lazy"
-                    src="https://i.imgur.com/6acMnkD.jpg"
-                  />
-                </picture>
-                <picture>
-                  <img
-                    alt="..."
-                    loading="lazy"
-                    src="https://i.imgur.com/6acMnkD.jpg"
-                  />
-                </picture>
+                <div className="favthing">
+                  <p>
+                    It is literally my favorite thing Ive ever seen in my life.
+                  </p>
+                </div>
+                <div className="yourfacebpic">
+                  <picture>
+                    <img
+                      alt="..."
+                      loading="lazy"
+                      src="https://i.imgur.com/6acMnkD.jpg"
+                    />
+                  </picture>
+                  <picture>
+                    <img
+                      alt="..."
+                      loading="lazy"
+                      src="https://i.imgur.com/6acMnkD.jpg"
+                    />
+                  </picture>
+                  <picture>
+                    <img
+                      alt="..."
+                      loading="lazy"
+                      src="https://i.imgur.com/6acMnkD.jpg"
+                    />
+                  </picture>
+                
               </div>
             </div>
           </div>

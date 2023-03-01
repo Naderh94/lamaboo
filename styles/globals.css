@@ -58,7 +58,6 @@ body {
 .one {
   background: #deeee3;
   font-size: 4vh;
-  overflow: hidden;
 }
 .two {
   background: #badfd6;
@@ -96,7 +95,6 @@ body {
   } 
   .yourfaceleft img {
     border-radius: 4px;
-    max-width: 100%;
   }
   .yourfaceleft p {
     position: relative;
@@ -112,7 +110,7 @@ body {
 
   .favthing {
     position: relative;
-    top: -2vh;
+    bottom: 4vh;
     left: 3vh;
     white-space: normal;
     width: 40vh;
@@ -132,7 +130,6 @@ body {
   } 
   .yourfaceright img {
     border-radius: 20px;
-    max-width: 100%;
   }
   .yourfaceright p {
     white-space: normal;
@@ -149,9 +146,9 @@ body {
     display: flex;
     position: relative;
   }
+
   .yourfacebpic img {
-    border-radius: 1px;
-    max-width: 100%;
+    border-radius: 1px; 
   }
 
 .custom-i {
