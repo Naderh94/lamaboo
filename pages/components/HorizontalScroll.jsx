@@ -43,28 +43,56 @@ const HorizontalScroll = () => {
             className="slide one"
             style={{ borderRadius: "3px", padding: "10px" }}
           >
-            <div className="first-image"></div>
             <h1 className="flex items-topcenter justify-center mt-2 bg-fixed bg-center bgcover custom-reasons">
               REASONS
             </h1>
-              <div className="reasons-face">
-                <div className="yourfaceleft">
-              <picture>
-              <img alt="..." loading="lazy" src="https://i.imgur.com/6acMnkD.jpg" />
-              <p>Your face.</p>
-              </picture>
+            <div className="reasons-face">
+              <div className="yourfaceleft">
+                <picture>
+                  <img
+                    alt="..."
+                    loading="lazy"
+                    src="https://i.imgur.com/6acMnkD.jpg"
+                  />
+                  <p>Your face.</p>
+                </picture>
               </div>
-              
+
               <div className="yourfaceright">
+                <picture>
+                  <img
+                    alt="..."
+                    loading="lazy"
+                    src="https://i.imgur.com/6acMnkD.jpg"
+                  />
+                </picture>
+                <p>I could stare at it for years.</p>
+              </div>
+              <p className="favthing">It is literally my favorite thing Ive ever seen in my life.</p>
+              <div className="yourfacebpic">
               <picture>
-              <img alt="..." loading="lazy" src="https://i.imgur.com/6acMnkD.jpg" />
-              </picture>
+                  <img
+                    alt="..."
+                    loading="lazy"
+                    src="https://i.imgur.com/6acMnkD.jpg"
+                  />
+                </picture>
+                <picture>
+                  <img
+                    alt="..."
+                    loading="lazy"
+                    src="https://i.imgur.com/6acMnkD.jpg"
+                  />
+                </picture>
+                <picture>
+                  <img
+                    alt="..."
+                    loading="lazy"
+                    src="https://i.imgur.com/6acMnkD.jpg"
+                  />
+                </picture>
               </div>
-              <p>It is literally my favorite thing Ive ever seen in my life.</p> 
-              
-              <p>I could stare at it for years.</p>
-              
-              </div>
+            </div>
           </div>
           <div
             className="slide two"

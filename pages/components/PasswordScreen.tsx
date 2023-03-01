@@ -55,7 +55,7 @@ export default function PasswordScreen({ onPasswordEntered }: Props) {
               textAlign: 'center',
             }}
           >
-            Please enter the password to view my favorite thing in life:
+            Please enter the password to view the best site ever:
             <input
               type="text"
               value={password}

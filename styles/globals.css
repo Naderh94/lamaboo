@@ -11,9 +11,7 @@ html {
   font-family: 'Raleway', Menlo;
 }
 
-img {
-  border-radius: 4px;
-}
+
 
 body {
   --black: #000000;
@@ -81,41 +79,72 @@ body {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
   font-size: 6vh;
-} .reasons-face {
+} 
+
+.reasons-face {
   color: #000000;
 } 
 
-.yourface {
-    color:#802bff;
-    position: relative;
-    top: -5vh;
-    left: 38vw;
-    right: 0;
-    margin: 0;
-    padding: 2px;
-    max-width: auto;
-  } 
-  
   .yourfaceleft {
     position: relative;
-    top: -2vh;
-    margin: 0;
-    width: 28%;
-   } .yourfaceleft img {
+    top: -1vh;
+    margin-left: 0.4vh;
+    width: 30%;
+    
+   } 
+   .yourfaceleft img {
+    display: block;
+    width: 100%;
     float: left; 
     margin-right: 6vw;
-  } .yourfaceleft p {
-    height: 100px;
-  line-height: 900%;
+    border-radius: 4px;
+  } 
+  .yourfaceleft p {
+    position: relative;
+    width: auto;
+    left: 26vh;
+    top: -14vh;
+    font-size: 5vh;
+    font-weight: 600;
+  }
+
+  .favthing {
+    position: relative;
+    top: -6.2vh;
+    white-space: normal;
+    width: 58%;
+    text-align: center;
+    font-size: 3.9vh
   }
 
   .yourfaceright {
     position: relative;
-    top: -18vh;
-    left: 54vh;
-    margin: 0;
-    width: 35%;
+    top: -33vh;
+    float: right;
+    margin-right: 0.2vh;
+    width: 40%;
   } 
+  .yourfaceright img {
+    border-radius: 20px;
+  }
+  .yourfaceright p {
+    white-space: normal;
+    text-align: center;
+    margin-top: 6vh;
+    font-size: 3.8vh;
+  }
+
+  .yourfacebpic {
+    position: relative;
+    top: -4.9vh;
+    left: 1.8vh;
+    float: left;
+    width: 54%;
+    display: flex;
+  }
+  .yourfacebpic img {
+    border-radius: 1px;
+  }
 
 .custom-i {
   color: #FFF1DC;
@@ -145,12 +174,15 @@ body {
 
 .outer-wrapperimg {
   position: relative;
-  
+}
+
+.outer-wrapperimg img {
+  border-radius: 4px;
 }
 
 .wrapperimg {
-  width: 600%;
-  max-width: 600vw;
+  width: 450rem;
+  max-width: 450rem;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -258,11 +290,13 @@ section {
   margin-right: 100px;
 }
 
+
 /* Parallax Text */ 
 
 
 
 /* Footer */ 
+
 
 .footer {
   position: relative;
@@ -276,6 +310,7 @@ section {
   font-weight: bold;
   font-size: small;
 }
+
 
 /* Footer */ 
 
