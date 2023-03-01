@@ -5,6 +5,10 @@
 
 /* Global CSS */ 
 
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (pointer:coarse) {
+  /* CSS styles for Safari on mobile devices */
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -123,6 +127,7 @@ body {
     font-size: 3.4vh;
     margin: 0 auto;
     float: left;
+    margin: 0 auto;
   }
 
   .yourfaceright {
