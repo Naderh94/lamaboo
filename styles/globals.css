@@ -96,9 +96,11 @@ body {
     display: block;
     width: 100%;
     float: left;
-    border-radius: 4px;
     position: relative;
   } 
+  .yourfaceleft img {
+    border-radius: 4px;
+  }
   .yourfaceleft p {
     position: relative;
     width: 23vh;
@@ -113,8 +115,8 @@ body {
 
   .favthing {
     position: relative;
-    top: -7vh;
-    left: 3.5vh;
+    bottom: 8vh;
+    left: 3.5vw;
     white-space: normal;
     width: 40vh;
     text-align: center;
@@ -142,7 +144,7 @@ body {
 
   .yourfacebpic {
     position: relative;
-    bottom: 4.5vh;
+    bottom: 5.5vh;
     left: 1.8vh;
     float: left;
     width: 45vh;
