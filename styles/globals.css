@@ -45,7 +45,7 @@ body {
 
 .slide {
   width: 85vh;
-  height: 85vh;
+  height: 85vw;
   margin-top: 3px;
 }
 .wrapper {
@@ -58,6 +58,7 @@ body {
 .one {
   background: #deeee3;
   font-size: 4vh;
+  overflow: hidden;
 }
 .two {
   background: #badfd6;
