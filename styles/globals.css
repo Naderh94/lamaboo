@@ -90,9 +90,9 @@ body {
     top: -3vh;
     margin-left: 0.4vh;
     width: 26vh;
-    
+    padding-bottom: 0;
    } 
-   .yourfaceleft img {
+   .yourfaceleft picture {
     display: block;
     width: 100%;
     float: left;
@@ -125,7 +125,7 @@ body {
 
   .yourfaceright {
     position: relative;
-    top: -35vh;
+    top: 4vh;
     float: right;
     margin-right: 0.2vh;
     width: 40%;
