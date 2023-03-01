@@ -178,6 +178,7 @@ body {
 
 .outer-wrapperimg img {
   border-radius: 4px;
+  
 }
 
 .wrapperimg {
@@ -187,16 +188,21 @@ body {
   display: flex;
   flex-wrap: nowrap;
   gap: 0.2%;
+  overflow: hidden;
 }
 
 .topimg {
-    transition: transform .2s; /* Animation */
+    transition: transform 0.5s ease-in-out; /* Animation */
     margin: 0 auto;
+    position: relative; /* Add this line */
+    z-index: 1; 
   }
   
 .topimg:hover {
-    transform: scale(1.02);
+  transform: translate(0vh, 1vh) scale(1.1);
     border-radius: 4px;
+    position: relative;
+    z-index: 9999;
 }
 
 
