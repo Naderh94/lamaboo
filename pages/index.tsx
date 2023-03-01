@@ -25,8 +25,8 @@ export default function Home() {
       <TopImages />
 
       <section>
-        <ParallaxText baseVelocity={-1} color="#E5D1FA">Lamoseshka Farfosheka is the Cutest Patotes to ever exist</ParallaxText>
-        <ParallaxText baseVelocity={1} color="#E5D1FA">You are my favorite thing in life - Loving You Forever & Always</ParallaxText>
+        <ParallaxText baseVelocity={-1.5} color="#E5D1FA">Lamoseshka Farfosheka is the Cutest Patotes to ever exist</ParallaxText>
+        <ParallaxText baseVelocity={1.5} color="#E5D1FA">You are my favorite thing in life - Loving You Forever & Always</ParallaxText>
       </section>
 
       <HorizontalScroll />
