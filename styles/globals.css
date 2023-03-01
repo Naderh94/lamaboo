@@ -114,8 +114,7 @@ body {
 
   .favthing {
     position: relative;
-    bottom: 8vh;
-    left: 3.5vw;
+    top: -8vh;
     white-space: normal;
     width: 40vh;
     text-align: center;
@@ -143,12 +142,12 @@ body {
   }
 
   .yourfacebpic {
-    position: relative;
     bottom: 5.5vh;
     left: 1.8vh;
     float: left;
     width: 45vh;
     display: flex;
+    position: relative;
   }
   .yourfacebpic img {
     border-radius: 1px;
