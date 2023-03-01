@@ -89,46 +89,43 @@ body {
     position: relative;
     top: -3vh;
     margin-left: 0.4vh;
-    width: 30%;
+    width: 26vh;
     
    } 
    .yourfaceleft img {
     display: block;
     width: 100%;
-    float: left; 
-    margin-right: 6vw;
+    float: left;
     border-radius: 4px;
     position: relative;
   } 
   .yourfaceleft p {
     position: relative;
-    width: 100%;
-    left: 26vh;
+    width: 23vh;
+    left: 24.5vh;
     top: -15vh;
     font-size: 5vh;
     font-weight: 600;
     margin: 0 auto;
     white-space: normal;
+    text-align: center;
   }
 
   .favthing {
     position: relative;
-    top: -8vh;
-    left: 2vh;
+    top: -7vh;
+    left: 3.5vh;
     white-space: normal;
     width: 40vh;
-    height: 20vh;
     text-align: center;
     font-size: 3.4vh;
     margin: 0 auto;
     float: left;
-    padding-top: 25px;
-    padding-left: 30px;
   }
 
   .yourfaceright {
     position: relative;
-    top: -30vh;
+    top: -35vh;
     float: right;
     margin-right: 0.2vh;
     width: 40%;
@@ -139,13 +136,13 @@ body {
   .yourfaceright p {
     white-space: normal;
     text-align: center;
-    margin-top: 6vh;
+    margin-top: 5.5vh;
     font-size: 3.8vh;
   }
 
   .yourfacebpic {
     position: relative;
-    top: -8vh;
+    bottom: 4.5vh;
     left: 1.8vh;
     float: left;
     width: 45vh;
@@ -290,7 +287,8 @@ section {
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
-  margin-bottom: 1px;
+  margin-bottom: 0.1vh;
+  padding-bottom: 0.2vh;
   text-shadow: -0.1px 0.1px 2px #242222,
   0.1px 0.1px 2px #242222,
   0.1px -0.1px 0 #242222,
@@ -300,7 +298,7 @@ section {
 
 .parallax span {
   display: block;
-  margin-right: 40px;
+  margin-right: 3.5vh;
 }
 
 /* Parallax Text */ 
