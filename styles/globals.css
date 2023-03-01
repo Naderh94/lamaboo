@@ -98,28 +98,37 @@ body {
     float: left; 
     margin-right: 6vw;
     border-radius: 4px;
+    position: relative;
   } 
   .yourfaceleft p {
     position: relative;
-    width: auto;
-    left: 26vh;
-    top: -14vh;
+    width: fit-content;
+    left: 24vh;
+    top: -15vh;
     font-size: 5vh;
     font-weight: 600;
+    margin: 0 auto;
+    white-space: normal;
   }
 
   .favthing {
     position: relative;
-    top: -6.2vh;
+    top: -8vh;
+    left: 2vh;
     white-space: normal;
-    width: 58%;
+    width: 40vh;
+    height: 20vh;
     text-align: center;
-    font-size: 3.9vh
+    font-size: 3.4vh;
+    margin: 0 auto;
+    float: left;
+    padding-top: 25px;
+    padding-left: 30px;
   }
 
   .yourfaceright {
     position: relative;
-    top: -33vh;
+    top: -30vh;
     float: right;
     margin-right: 0.2vh;
     width: 40%;
@@ -136,10 +145,10 @@ body {
 
   .yourfacebpic {
     position: relative;
-    top: -4.9vh;
+    top: -8vh;
     left: 1.8vh;
     float: left;
-    width: 54%;
+    width: 45vh;
     display: flex;
   }
   .yourfacebpic img {
@@ -182,23 +191,24 @@ body {
 }
 
 .wrapperimg {
-  width: 600%;
+  width: 700vh;
   max-width: 700vh;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
   gap: 0.2%;
   overflow: hidden;
+  
 }
 
 .topimg {
-    transition: transform 0.5s ease-in-out; /* Animation */
+    transition: transform 0.5s; /* Animation */
     margin: 0 auto;
   }
   
 .topimg:hover {
   transform: scale(1.05);
-    border-radius: 4px;
+    
 }
 
 
@@ -210,8 +220,8 @@ body {
 
 
 ::-webkit-scrollbar {
-  height: 2px;
-  width: 1px;
+  height: 0.4vh;
+  width: 0.1vh;
   background: var(--background);
 }
 
@@ -230,7 +240,8 @@ body {
     rgb(224, 162, 243) 90%,
     rgb(224, 162, 243) 100%
 );
-  -webkit-border-radius: 1ex;
+  -webkit-border-radius: 5ex;
+  border-radius: 50px;
 }
 
 ::-webkit-scrollbar-corner {
@@ -246,7 +257,7 @@ body {
 
 
 section {
-  padding-top: 0vh;
+  padding-top: 0.3vh;
   padding-bottom: 0vh;
   position: relative;
   font-style: italic;
