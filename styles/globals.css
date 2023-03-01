@@ -58,8 +58,6 @@ body {
 .one {
   background: #deeee3;
   font-size: 4vh;
-  overflow: hidden;
-  
 }
 .two {
   background: #badfd6;
@@ -112,7 +110,8 @@ body {
 
   .favthing {
     position: relative;
-    top: -8vh;
+    top: -2vh;
+    left: 3vh;
     white-space: normal;
     width: 40vh;
     text-align: center;
@@ -140,8 +139,8 @@ body {
   }
 
   .yourfacebpic {
-    bottom: 5.5vh;
-    left: 1.8vh;
+    top: 3vh;
+    left: 1vh;
     float: left;
     width: 45vh;
     display: flex;
