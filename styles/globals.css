@@ -182,7 +182,7 @@ body {
 
 .wrapperimg {
   width: 600%;
-  max-width: 600vw;
+  max-width: 700vh;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -273,7 +273,6 @@ section {
   font-weight: 600;
   text-transform: none;
   font-size: 3.8vh;
-  letter-spacing: 0.5px;
   display: flex;
   white-space: nowrap;
   display: flex;
