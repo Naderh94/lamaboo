@@ -45,8 +45,9 @@ body {
 
 .slide {
   width: 85vh;
-  height: 90vh;
+  height: 85vh;
   margin-top: 3px;
+  max-height: 100%;
 }
 .wrapper {
   display: flex;
