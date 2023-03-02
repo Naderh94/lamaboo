@@ -193,7 +193,7 @@ body {
   white-space: normal;
   text-align: center;
   width: 60%;
-  margin-left: 5%;
+  padding-left: 9%;
   margin-bottom: 3%;
 }
 
@@ -209,7 +209,7 @@ body {
   position: relative;
   float: right;
   width: 34%;
-  bottom: 23vh;
+  bottom: 25vh;
 }
 
 .rightside img {
