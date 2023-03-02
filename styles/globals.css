@@ -173,6 +173,13 @@ body {
   width: 100%;
 }
 
+.leftside .lspicandwords {
+  position: relative;
+  bottom: 2vh;
+  width: 32%;
+  margin-bottom: 1vh;
+}
+
 .leftside .maintxt {
   float: right;
   position: relative;
@@ -181,23 +188,19 @@ body {
   width: 0;
 }
 
-.leftside .lspicandwords {
-  width: 20vh;
-  margin-bottom: 3vh;
-}
 
 .leftside .leftsent {
   white-space: normal;
   text-align: center;
   width: 52%;
   margin-left: 2vh;
+  margin-bottom: 0vh;
 }
 
 .leftside .bpictwo {
   width: 50%;
   display: flex;
-  margin-top: 5vh;
-  margin-left: 4vh;
+  margin-left: 7vh;
 }
 
 
@@ -205,8 +208,8 @@ body {
   color: #000000;
   position: relative;
   float: right;
-  width: 32%;
-  bottom: 18vh;
+  width: 37%;
+  bottom: 25vh;
 }
 
 .rightside img {
