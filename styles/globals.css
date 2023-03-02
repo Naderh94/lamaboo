@@ -184,7 +184,7 @@ body {
   float: right;
   position: relative;
   bottom: 10vh;
-  left: 6vh;
+  left: 30%;
   width: 0;
 }
 
@@ -194,16 +194,16 @@ body {
   text-align: center;
   position: relative;
   width: 60%;
-  left: 3%;
-  margin-top: 1%;
-  margin-bottom: 3%;
+  left: 2.5%;
+  margin-top: 4%;
+  margin-bottom: 7%;
   font-size: 88%;
 }
 
 .leftside .bpictwo {
   width: 50%;
   display: flex;
-  margin-left: 12%;
+  margin-left: 8%;
 }
 
 
@@ -212,7 +212,7 @@ body {
   position: relative;
   float: right;
   width: 34%;
-  bottom: 25vh;
+  bottom: 27vh;
 }
 
 .rightside img {
