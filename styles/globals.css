@@ -192,9 +192,12 @@ body {
 .leftside .leftsent {
   white-space: normal;
   text-align: center;
+  position: relative;
   width: 60%;
-  padding-left: 9%;
+  left: 3%;
+  margin-top: 1%;
   margin-bottom: 3%;
+  font-size: 88%;
 }
 
 .leftside .bpictwo {
