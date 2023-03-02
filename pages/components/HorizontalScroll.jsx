@@ -46,68 +46,8 @@ const HorizontalScroll = () => {
             <h1 className="flex items-topcenter justify-center mt-2 bg-fixed bg-center bgcover custom-reasons">
               REASONS
             </h1>
-            <div className="reasons-face">
-              <div className="yourfaceleft">
-                <picture>
-                  <img
-                    alt="..."
-                    loading="lazy"
-                    src="https://i.imgur.com/6acMnkD.jpg"
-                  />
-                  <p>Your face.</p>
-                </picture>
-              </div>
-
-              <div className="yourfaceright">
-                <picture>
-                  <img
-                    alt="..."
-                    loading="lazy"
-                    src="https://i.imgur.com/6acMnkD.jpg"
-                  />
-                </picture>
-                <p>I could stare at it for years.</p>
-              </div>
-                <div className="favthing">
-                  <p>
-                    It is literally my favorite thing Ive ever seen in my life.
-                  </p>
-                </div>
-                <div className="yourfacebpic">
-                  <picture>
-                    <img
-                      alt="..."
-                      loading="lazy"
-                      src="https://i.imgur.com/6acMnkD.jpg"
-                    />
-                  </picture>
-                  <picture>
-                    <img
-                      alt="..."
-                      loading="lazy"
-                      src="https://i.imgur.com/6acMnkD.jpg"
-                    />
-                  </picture>
-                  <picture>
-                    <img
-                      alt="..."
-                      loading="lazy"
-                      src="https://i.imgur.com/6acMnkD.jpg"
-                    />
-                  </picture>
-                
-              </div>
-            </div>
-          </div>
-          <div
-            className="slide two"
-            style={{ borderRadius: "3px", padding: "10px" }}
-          >
-            <h1 className="flex items-topcenter justify-center mt-2 bg-fixed bg-center bgcover custom-i">
-              I
-            </h1>
-
-            <div className="slidetwocontainer">
+            
+            <div className="slideonecontainer">
               <div className="leftside">
                 <div className="lspicandwords">
                 <picture>
@@ -163,9 +103,19 @@ const HorizontalScroll = () => {
                   
                 </div>
               </div>
-
-              
             </div>
+                
+              
+          </div>
+          <div
+            className="slide two"
+            style={{ borderRadius: "3px", padding: "10px" }}
+          >
+            <h1 className="flex items-topcenter justify-center mt-2 bg-fixed bg-center bgcover custom-i">
+              I
+            </h1>
+
+           
           </div>
 
 
