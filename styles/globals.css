@@ -192,15 +192,15 @@ body {
 .leftside .leftsent {
   white-space: normal;
   text-align: center;
-  width: 47%;
-  margin-left: 2%;
-  margin-bottom: 2%;
+  width: 57%;
+  margin-left: 5%;
+  margin-bottom: 3%;
 }
 
 .leftside .bpictwo {
   width: 50%;
   display: flex;
-  margin-left: 7%;
+  margin-left: 12%;
 }
 
 
