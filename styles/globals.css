@@ -64,6 +64,7 @@ body {
 .two {
   background: #badfd6;
   font-size: 4vh;
+  overflow: hidden;
 }
 .three {
   background: #b5d1d1;
@@ -120,7 +121,6 @@ body {
     font-size: 1.5rem;
     margin: 0 auto;
     float: left;
-    margin: 0 auto;
   }
 
   .yourfaceright {
@@ -153,11 +153,73 @@ body {
     border-radius: 1px; 
   }
 
+
+
 .custom-i {
   color: #FFF1DC;
   font-family: 'Lato', ui-monospace;
   font-size: 6vh;
 }
+
+.slidetwocontainer {
+  width: 100%;
+  position: relative;
+}
+
+.leftside {
+  float: left;
+  width: 100%;
+}
+
+.leftside .maintxt {
+  float: right;
+  position: relative;
+  bottom: 10vh;
+  left: 6vh;
+  width: 0;
+}
+
+.leftside .lspicandwords {
+  width: 20vh;
+}
+
+.leftside .leftsent {
+  white-space: normal;
+  text-align: center;
+  width: 50%;
+  margin-top: 3vh;
+  margin-left: 2vh;
+}
+
+.leftside .bpictwo {
+  width: 50%;
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 4vh;
+}
+
+
+.rightside {
+  color: #000000;
+  position: relative;
+  float: right;
+  width: 32%;
+  bottom: 34vh;
+}
+
+.rightside picture {
+  width: 0;
+}
+
+.rightside img {
+  width: 100%;
+}
+
+.rightside p {
+  text-align: center;
+  white-space: normal;
+}
+
 
 .custom-love {
   color: #FFF1DC;
