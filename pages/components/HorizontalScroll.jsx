@@ -121,11 +121,6 @@ const HorizontalScroll = () => {
                   </div>
                 </picture>
                 </div>
-                <div className="leftsent">
-                  <p>
-                    It is literally my favorite thing Ive ever seen in my life.
-                  </p>
-                </div>
                 <div className="rightside">
                 <picture>
                   <img
@@ -138,6 +133,11 @@ const HorizontalScroll = () => {
                 <p>I could stare at it for years.</p>
                 </div>
               </div>
+                <div className="leftsent">
+                  <p>
+                    It is literally my favorite thing Ive ever seen in my life.
+                  </p>
+                </div>
                 <div className="bpictwo">
                   <picture>
                     <img
