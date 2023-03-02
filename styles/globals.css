@@ -104,6 +104,10 @@ body {
   margin-bottom: 0vh;
 }
 
+.leftside .lspicandwords img {
+  border-radius: 0.5vh;
+}
+
 .leftside .maintxt {
   float: right;
   position: relative;
@@ -111,7 +115,8 @@ body {
   left: 1.5vh;
   width: 0;
   font-size: 125%;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: 'Tilt Warp', cursive, Roboto;
 }
 
 .leftside .leftsent {
@@ -123,12 +128,17 @@ body {
   margin-top: 3%;
   margin-bottom: 4%;
   font-size: 83%;
+  font-family: 'Shantell Sans', cursive, Oxygen;
 }
 
 .leftside .bpictwo {
   width: 50%;
   display: flex;
-  margin-left: 11%;
+  margin-left: 6.5vh;
+}
+
+.leftside .bpictwo img {
+  border-radius: 0.2vh;
 }
 
 
@@ -143,12 +153,14 @@ body {
 .rightside img {
   width: 100%;
   margin-bottom: 8%;
+  border-radius: 2vh;
 }
 
 .rightside p {
   text-align: center;
   white-space: normal;
   font-size: 90%;
+  font-family: 'Tilt Neon', cursive, Ubuntu;
 }
 
 /* -- Slide one 'Reasons' -- */ 
